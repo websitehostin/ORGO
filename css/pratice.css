@@ -1,0 +1,54 @@
+:root{
+    --green:green;
+    --black:blue;
+    --light-color:rgba(99,96,96);
+    --box-shadow:0 .5rem black;
+    --border:.2rem rgba(0,0,0,.1);
+    --outline: .1rem rgba(0,0,0,.1);
+    --outline-hover:var(--black);
+}
+* 
+{
+    font-family: 'Poppins',sans-serif;
+    margin :0; padding: 0;
+    box-sizing: border-box;
+    border: none; outline:none;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all.2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x:hidden ;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+
+}
+body{
+    background-color: aliceblue;
+}
+section{
+    padding: 2rem 9%;
+
+}
+.heading
+{
+    text-align: center;
+    padding :2rem 0;
+    padding-bottom: 3rem;
+    font-size:3.5rem;
+    color: var(--black);
+
+
+
+}
+.heading span
+{
+    background-color: var(--green);
+    color: white;
+    display: inline-block;
+    padding:5rem 3rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0);
+}
